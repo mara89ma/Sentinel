@@ -12,9 +12,9 @@ This repository contains a customized version of the **Fortinet Connector Templa
 ### 2. **Customizable Function App, App Service Plan, Storage Account, and Application Insights Name**
 ![image](https://github.com/user-attachments/assets/a7d95f35-2009-4754-93d3-3faac2608edf)
 
-- The original template automatically generated the **storage account name**, which was not user-configurable.
-- In this customized version, **users can specify their own storage account name** in the `parameters.json` file before deployment.
-- This ensures that the storage account follows **specific naming standards** required by the organization.
+- In the original template, only the Function App Name could be specified, while App Service Plan, Application Insights, and Storage Account were automatically generated and not user-configurable.
+- In this customized version, users can now specify their own names for App Service Plan, Application Insights, and Storage Account in the parameters.json file before deployment.
+- This enhancement allows organizations to enforce consistent naming conventions across all related Azure resources, improving manageability and compliance with internal policies.
 
 ### 3. **Updated Parameter Structure**
 - Added explicit parameters for `Function App Name`, `Hosting Plan Name`, `Application Insights Name`, and `Storage Account Name`.
