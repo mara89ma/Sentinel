@@ -11,6 +11,20 @@
                 "description": "Function App name is global uniqueness should not contain any special symbol"
             }
         },
+        "hostingPlanName": {
+            "defaultValue": "",
+            "type": "String",
+            "metadata": {
+                "description": "storageAccountName name"
+            }
+        },
+        "applicationInsightsName": {
+            "defaultValue": "",
+            "type": "String",
+            "metadata": {
+                "description": "storageAccountName name"
+            }
+        },		
         "storageAccountName": {
             "defaultValue": "",
             "type": "String",
@@ -48,8 +62,8 @@
     },
     "variables": {
         "functionAppName": "[parameters('Function App Name')]",
-        "hostingPlanName": "[parameters('Function App Name')]",
-        "applicationInsightsName": "[parameters('Function App Name')]",
+        "hostingPlanName": "[parameters('hostingPlanName')]",
+        "applicationInsightsName": "[parameters('applicationInsightsName')]",
         "storageAccountName": "[parameters('storageAccountName')]",
         "StorageAccount": "Standard_LRS",
         "functionWorkerRuntime": "dotnet",
