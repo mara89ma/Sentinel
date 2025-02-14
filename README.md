@@ -9,8 +9,8 @@ This repository contains a customized version of the **Fortinet Connector Templa
 - In this customized version, **users can now specify their own names for all these resources** during deployment.
 - This enhances **naming convention compliance, manageability, and clarity in enterprise environments**.
 
-### 2. **Customizable Storage Account Name**
-![image](https://github.com/user-attachments/assets/f5021d01-e236-4a8e-b2f2-4245594b9a7b)
+### 2. **Customizable Function App, App Service Plan, Storage Account, and Application Insights Name**
+![image](https://github.com/user-attachments/assets/a7d95f35-2009-4754-93d3-3faac2608edf)
 
 - The original template automatically generated the **storage account name**, which was not user-configurable.
 - In this customized version, **users can specify their own storage account name** in the `parameters.json` file before deployment.
