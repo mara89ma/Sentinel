@@ -5,6 +5,8 @@ This repository contains a customized version of the **Fortinet Connector Templa
 ## 🔄 Changes from the Original Template
 
 ### 1. **Customizable Storage Account Name**
+![image](https://github.com/user-attachments/assets/c7795d4e-ff81-429b-bd97-c731e54d0dc2)
+
 - In the original template, the **storage account name was automatically generated** by Azure.
 - In this customized version, **users can specify their own storage account name** during deployment.
 - This allows better compliance with **naming conventions** and improves manageability in enterprise environments.
