@@ -1,12 +1,11 @@
 //https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Fortinet-FortiGate
-//You can change the storage account name
+//You can change every Resource name
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Function App Name": {
             "defaultValue": "",
-            "type": "String",
             "metadata": {
                 "description": "Function App name is global uniqueness should not contain any special symbol"
             }
@@ -197,7 +196,6 @@
                     "[resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', variables('UserIdentifier'))]": {}
                 }
             },
-            "properties": {
                 "config": {
                     "bindings": [
                         {
