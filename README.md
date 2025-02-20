@@ -1,4 +1,4 @@
-# Fortinet Connector Template (Customized)
+# Fortinet Function App Template for Sentinel (Customized)
 
 This repository contains a customized version of the **Fortinet Connector Template** originally provided by Microsoft on its official GitHub.
 
